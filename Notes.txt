@@ -1,0 +1,12 @@
+1. need to add responsiveness
+
+2. need to create links and associate pages
+    concepts page
+    equations page
+    external page
+    contact me
+    about me
+
+3. need main page content
+
+4. maybe add a link with random fun shit

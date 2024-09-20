@@ -1,0 +1,106 @@
+
+body {
+    background-image:url(/Images/pexelswatercropped.jpg);
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.header {
+    position:fixed;
+    display:flex;
+    align-items:center;
+    height: 100px;
+    width: 98%;
+    background: linear-gradient(45deg, #10181d, #1a8e50, #0a7b6e, #10181d);
+    animation: gradientAnimation 20s infinite;
+    background-size: 500% 500%;
+    margin-top: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aquamarine;
+    font-family: "IBM Plex Mono", monospace;
+    
+    
+}
+
+
+.nav-links {
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.title-card {
+    color: seashell;
+    text-align: center;
+    font-size: larger;
+    width: 45%;
+}
+
+.nav {
+    background-color: rgb(29, 29, 31);
+    color: white;
+    height: 60px;
+    width: 220px;
+    text-align: center;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid aquamarine;
+}
+
+.web-bod {
+    height:650px;
+    width: 99%;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+}
+
+.card-1 {
+    margin-top: 130px;
+    grid-row: span 2;
+}
+
+.card-2 {
+    margin-top: 130px;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.footer > h4 {
+    color: white;
+    margin-right: 20px;
+    font-family:"IBM Plex Mono", monospace;
+}
